@@ -42,8 +42,18 @@ CPU 클럭, 코어·스레드 구성, 캐시 구조, 메모리 종류 등 PC 내
 아래 공식 링크에서 설치형·무설치 버전을 받을 수 있습니다.  
 (동현의 WordPress 페이지는 설치 가이드 + 무설치 버전 정보까지 포함됨)
 
-👉 **CPU-Z 최신 다운로드 (HOT-PLACE)**  
-<https://all.hot-place.co.kr/cpu-z>
+<a href="https://all.hot-place.co.kr/cpu-z" style="
+  display:inline-block;
+  padding:12px 18px;
+  background:#2b76ff;
+  color:#fff;
+  border-radius:10px;
+  font-weight:700;
+  text-decoration:none;
+  margin-top:8px;
+">
+👉 CPU-Z 최신 다운로드 (HOT-PLACE)
+</a>
 
 ---
 

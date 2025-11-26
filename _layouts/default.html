@@ -7,13 +7,13 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   {% seo %}
 
-  <!-- CSS 연결 -->
-  <link rel="stylesheet" href="{{ '/utility/assets/style.css' | relative_url }}">
+  <!-- CSS 연결 (정상 경로) -->
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 
 <body>
   <header class="site-header">
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+    <h1><a href="{{ site.baseurl | relative_url }}">{{ site.title }}</a></h1>
   </header>
 
   <main class="site-content">

@@ -1,23 +1,104 @@
-title: "Utility SEO Blog"
-description: "Github.io 기반 SEO 블로그 — WordPress 외부유입"
-theme: minima
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard','Noto Sans KR',sans-serif;
+  background: #f4f6fb;
+  color: #222;
+  line-height: 1.6;
+}
 
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+.site-header {
+  text-align: center;
+  padding: 26px 0;
+  background: white;
+  border-bottom: 1px solid #ececec;
+}
 
-permalink: /:title/
-paginate: 10
-paginate_path: "/page:num"
+.site-header h1 a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 24px;
+  font-weight: 700;
+}
 
-url: "https://rneh10122-cyber.github.io"
-baseurl: "/utility"
+.site-content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background: none;
+}
 
-author:
-  name: "동현"
+.post {
+  background: #fff;
+  padding: 26px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
 
-# CSS 연결
-sass:
-  sass_dir: assets
+.post h1 {
+  margin-bottom: 12px;
+  font-size: 26px;
+}
+
+.post-date {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+.post-content p {
+  margin-bottom: 16px;
+  font-size: 17px;
+}
+
+.post-content a {
+  color: #2b76ff;
+  text-decoration: underline;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 16px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.post-list h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.post-date {
+  font-size: 13px;
+  color: #7d7d7d;
+  margin-bottom: 8px;
+}
+
+.pagination {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pagination a {
+  padding: 10px 16px;
+  background: #2b76ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 0 6px;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 13px;
+  background: #fafafa;
+  margin-top: 40px;
+}

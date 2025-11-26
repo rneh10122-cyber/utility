@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>{{ page.title }} | {{ site.title }}</title>
   {% seo %}
 
-  <!-- CSS 연결 (정상 경로) -->
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 
 <body>
   <header class="site-header">
-    <h1><a href="{{ site.baseurl | relative_url }}">{{ site.title }}</a></h1>
+    <div class="container">
+      <h1 class="site-title">
+        <a href="{{ '/' | relative_url }}">Utility SEO Blog</a>
+      </h1>
+    </div>
   </header>
 
-  <main class="site-content">
+  <main class="site-main container">
     {{ content }}
   </main>
 
   <footer class="site-footer">
-    <p>© {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+    <div class="container">
+      © 2025 동현
+    </div>
   </footer>
-
 </body>
 </html>

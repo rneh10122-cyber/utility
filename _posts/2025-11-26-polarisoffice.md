@@ -9,8 +9,6 @@ portable: "설치형 프로그램"
 official: ""
 ---
 
-# 폴라리스 오피스(Polaris Office) 다운로드
-
 👉 **HOT-PLACE 제공 다운로드 페이지 바로가기**  
 https://all.hot-place.co.kr/폴라리스-오피스
 

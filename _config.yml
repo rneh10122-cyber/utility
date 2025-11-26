@@ -2,29 +2,24 @@ title: "Utility SEO Blog"
 description: "Github.io 기반 SEO 블로그 — Download Guides & WordPress External Traffic"
 theme: minima
 
-# SEO 필수 기능
 markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  parse_block_html: true
+  hard_wrap: false
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
-# 글 URL 형태
 permalink: /:title/
-
-# 글 목록 페이지
 paginate: 10
 paginate_path: "/page:num"
 
-# 사이트 주소
 url: "https://rneh10122-cyber.github.io"
 baseurl: "/utility"
 
-# 소셜 / OG
 author:
   name: "동현"
-
-kramdown:
-  auto_ids: true
-  parse_block_html: true
-  input: GFM

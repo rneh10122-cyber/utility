@@ -1,0 +1,23 @@
+title: "Utility SEO Blog"
+description: "Github.io 기반 SEO 블로그 — WordPress 외부유입"
+theme: minima
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+permalink: /:title/
+paginate: 10
+paginate_path: "/page:num"
+
+url: "https://rneh10122-cyber.github.io"
+baseurl: "/utility"
+
+author:
+  name: "동현"
+
+# CSS 연결
+sass:
+  sass_dir: assets

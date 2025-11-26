@@ -23,3 +23,8 @@ baseurl: "/utility"
 # 소셜 / OG
 author:
   name: "동현"
+
+kramdown:
+  auto_ids: true
+  parse_block_html: true
+  input: GFM

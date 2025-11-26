@@ -1,7 +1,12 @@
 ---
-layout: post
-title: "CPU-Z 다운로드 | CPU·메모리·메인보드 실시간 사양 확인 프로그램"
-description: "CPU-Z 최신 다운로드, 사용법, 지원 운영체제, 무설치 버전, 사양 확인 기능을 정리한 GitHub SEO 포스팅입니다."
+layout: download
+title: "CPU-Z 다운로드"
+date: 2025-11-26
+download_url: "https://all.hot-place.co.kr/cpu-z"
+version: "v2.06 (2025.08 릴리즈)"
+os: "Windows XP / 7 / 8 / 10 / 11"
+portable: "Portable ZIP 제공"
+official: "https://www.cpuid.com/softwares/cpu-z.html"
 ---
 
 CPU-Z는 컴퓨터의 **CPU, 메모리, 메인보드, 그래픽카드(GPU)** 등의 상세 하드웨어 정보를  

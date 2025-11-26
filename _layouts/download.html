@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- 기본 스타일 -->
+  <style>
+    body {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 20px;
+      font-family: 'Pretendard','Noto Sans KR',sans-serif;
+      background:#f5f6fa;
+      color:#1f2937;
+      line-height:1.65;
+    }
+
+    /* 상단 다운로드 박스 */
+    .download-box {
+      background:#ffffff;
+      border:1px solid #e5e7eb;
+      border-radius:18px;
+      padding:26px;
+      margin:20px 0 40px;
+      box-shadow:0 6px 18px rgba(0,0,0,0.06);
+    }
+    .download-title {
+      font-size:26px;
+      font-weight:800;
+      margin-bottom:10px;
+    }
+    .download-meta {
+      font-size:15px;
+      color:#6b7280;
+      margin-bottom:18px;
+    }
+    .download-btn {
+      display:block;
+      background:#2563eb;
+      color:#fff;
+      text-align:center;
+      padding:15px 0;
+      border-radius:12px;
+      font-size:19px;
+      font-weight:700;
+      text-decoration:none;
+      box-shadow:0 6px 20px rgba(37,99,235,0.25);
+      transition:0.2s;
+    }
+    .download-btn:hover {
+      background:#1e3fae;
+      transform:translateY(-2px);
+    }
+
+    /* 섹션 타이틀 */
+    .section-title {
+      font-size:22px;
+      font-weight:800;
+      margin-top:40px;
+      margin-bottom:14px;
+      display:flex;
+      align-items:center;
+    }
+    .section-title span { margin-right:8px; }
+
+    /* 카드 */
+    .card-box {
+      background:#ffffff;
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      padding:20px;
+      margin-bottom:26px;
+      box-shadow:0 3px 12px rgba(0,0,0,0.05);
+    }
+    .card-box ul {
+      margin:0;
+      padding-left:20px;
+    }
+    .card-box li {
+      margin-bottom:6px;
+      line-height:1.55;
+    }
+
+    /* 테이블 */
+    .table-wrap {
+      margin:30px 0;
+      border:1px solid #e5e7eb;
+      border-radius:14px;
+      overflow:hidden;
+      box-shadow:0 3px 12px rgba(0,0,0,0.05);
+      background:#ffffff;
+    }
+    .table-wrap table {
+      width:100%;
+      border-collapse:collapse;
+    }
+    .table-wrap th {
+      background:#f1f5f9;
+      padding:12px;
+      font-weight:700;
+      text-align:left;
+    }
+    .table-wrap td {
+      padding:12px;
+      border-top:1px solid #e5e7eb;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- 다운로드 상단 박스 -->
+  <div class="download-box">
+    <div class="download-title">{{ page.title }}</div>
+
+    <div class="download-meta">
+      {{ page.os }} · {{ page.version }}  
+      <br>무설치: {{ page.portable }}
+    </div>
+
+    <a href="{{ page.download_url }}" class="download-btn">
+      👉 다운로드 하기 (HOT-PLACE 제공)
+    </a>
+  </div>
+
+
+  <!-- 사양 정보 -->
+  <div class="section-title"><span>📄</span>지원 운영체제 & 요구 사양</div>
+
+  <div class="table-wrap">
+    <table>
+      <tr><th>항목</th><th>내용</th></tr>
+      <tr><td>운영체제</td><td>{{ page.os }}</td></tr>
+      <tr><td>버전 정보</td><td>{{ page.version }}</td></tr>
+      <tr><td>무설치 버전</td><td>{{ page.portable }}</td></tr>
+      <tr><td>공식 사이트</td><td>{{ page.official }}</td></tr>
+    </table>
+  </div>
+
+
+  <!-- 본문 -->
+  <div class="section-title"><span>📌</span>프로그램 상세 설명</div>
+
+  <div class="card-box">
+    {{ content }}
+  </div>
+
+</body>
+</html>

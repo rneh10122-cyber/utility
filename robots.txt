@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# GitHub Pages 기본적으로 공개되지만, 크롤링 불필요 파일 차단
+Disallow: /CNAME
+Disallow: /LICENSE
+Disallow: /README.md
+
+# Sitemap 설정
+Sitemap: https://rneh10122-cyber.github.io/sitemap.xml

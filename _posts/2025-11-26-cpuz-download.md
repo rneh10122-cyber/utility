@@ -34,7 +34,6 @@ CPU 클럭, 코어·스레드 구성, 캐시 구조, 메모리 종류 등 PC 내
 | **Android 앱** | Google Play 제공 |
 | **버전 정보** | v2.06 (2025.08 릴리즈) |
 | **무설치 버전** | Portable ZIP 파일 제공 |
-| **공식 사이트** | https://www.cpuid.com/softwares/cpu-z.html |
 
 ---
 
@@ -44,7 +43,7 @@ CPU 클럭, 코어·스레드 구성, 캐시 구조, 메모리 종류 등 PC 내
 (동현의 WordPress 페이지는 설치 가이드 + 무설치 버전 정보까지 포함됨)
 
 👉 **CPU-Z 최신 다운로드 (HOT-PLACE)**  
-https://all.hot-place.co.kr/cpu-z
+<https://all.hot-place.co.kr/cpu-z>
 
 ---
 
@@ -71,4 +70,4 @@ https://all.hot-place.co.kr/cpu-z
 ## 🔗 외부유입용 링크
 
 👉 **CPU-Z 최신 다운로드 & 상세 가이드 (HOT-PLACE)**  
-https://all.hot-place.co.kr/cpu-z
+<https://all.hot-place.co.kr/cpu-z>
